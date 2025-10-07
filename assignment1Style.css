@@ -50,8 +50,8 @@ nav li a{
   font-weight: 700;
   line-height: 150%; /* 24px */
 }
-/* .header */
-.header{
+/* header */
+header{
   background-image: url('./B12A01-landing-launchpad/Assets/Hero-bg.png');
 }
 .banner-content{
@@ -63,4 +63,196 @@ nav li a{
   font-weight: 700;
   line-height: normal;
   align-self: stretch;
+}
+.section-title{
+  font: size 35px;;
+  font-weight: bold ;
+  color: #252432;
+}
+.section-description {
+  font-size: 18px;
+  color: #252432;
+
+}
+.action{
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin: 40px 10px 10px 100px;
+/* top: 20px | right: 30px | bottom: 10px | left: 40px */
+
+}
+.action-about{
+  
+}
+.action-img img {
+  border-radius: 20px; /* small round corners */
+  width: 80%;   /* scales relative to parent container */
+  height: auto;
+}
+.user {
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.10);
+  padding: 40px;              /* add space inside */
+  margin: 40px auto;          /* space outside + center horizontally */
+  max-width: 900px;           /* keeps it from stretching too wide */
+  text-align: center;         /* centers all text inside */
+}
+
+.user-heading-title{
+  text-align: center;
+  font-size: 28px;   /* optional: make it bigger */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 120px; /* space between items */
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.user-stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 60px;   /* large numbers */
+  font-weight: 900;  /* extra bold */
+  color: #4E47FF;    /* dark for emphasis */
+}
+
+.stat-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;       /* softer for label */
+  margin-top: 5px;
+}
+
+ /* Stars */
+
+.user-opinion {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.user-opinion-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.user-opinion-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: nowrap;          /* prevent wrapping */
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;           /* allow horizontal scroll if screen too small */
+  padding-bottom: 10px;
+}
+
+.user-opinion-card {
+  background: rgba(78, 71, 255, 0.05);
+  border-radius: 16px;
+  padding: 30px;
+  flex: 1;                    /* auto-adjust width evenly */
+  min-width: 340px;           /* prevent shrinking too small */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.stars img {
+  width: 15px;
+  height: 15px;
+}
+
+.user-opinion-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.user-opinion-description {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.review-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  margin: 0;
+}
+
+.review-date {
+  font-size: 0.85rem;
+  color: gray;
+  margin: 2px 0 0;
+}
+
+/* Focus */
+
+.focus {
+  display: flex;
+  flex-direction: column; /* stack text above image */
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  background: rgba(78, 71, 255, 0.05);
+  border-radius: 24px;
+  margin: 60px auto;
+  max-width: 1000px;
+}
+
+.focus-content {
+  margin-bottom: 40px; /* space between text and image */
+}
+
+.focus-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #252432;
+  margin-bottom: 10px;
+}
+
+.focus-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+  max-width: 700px;
+}
+
+.focus-image img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 16px;
 }

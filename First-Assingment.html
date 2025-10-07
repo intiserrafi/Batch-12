@@ -1,29 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Year</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assignment1Style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Year</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:wght@400;700&family=Inter:wght@400;900&display=swap" 
+    rel="stylesheet"
+  >
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assignment1Style.css">
 </head>
 <body class="open-sans-normal">
-    <header>
-        <div class="Nav-container">
-            <nav>
-                <h3 class="nav-title">LOGO</h3>
-                <ul>
-                    <li><a href=""><button class="btn-primary">Sign Up</button></a>
-                    </li>
-                </ul>
-            </nav>
+  
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <nav>
+        <h1 class="nav-title">LOGO</h1>
+        <ul>
+          <li>
+            <a href="#">
+              <button class="btn-primary">Sign Up</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="banner-content">
+      <h2>Cool Dark UI Template for<br>Webflow Agencies!</h2>
+      <button class="btn-primary">Stay Focused</button>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Action Section -->
+    <section class="action">
+      <div class="action-about">
+        <h3 class="section-title">See It in Action</h3>
+        <p class="section-description">
+          Explore the live preview and imagine your brand in this bold new look.
+        </p>
+        <button class="btn-primary">Launch Live Preview</button>
+      </div>
+      <div class="action-img">
+        <img src="B12A01-landing-launchpad/Assets/wc-mini.png" alt="Website preview screenshot">
+      </div>
+    </section>
+
+    <!-- Users Section -->
+    <section class="user">
+      <div class="user-heading">
+        <h3 class="user-heading-title">Join Thousands of Productive Users</h3>
+        <ul class="user-stats">
+        <li>
+            <span class="stat-number">50K</span>
+            <span class="stat-label">Active Users</span>
+        </li>
+        <li>
+            <span class="stat-number">2M+</span>
+            <span class="stat-label">Focus Sessions</span>
+        </li>
+        <li>
+            <span class="stat-number">95%</span>
+            <span class="stat-label">Satisfaction Rate</span>
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="user-opinion">
+  <h2 class="user-opinion-title">What Our Users Say</h2>
+
+  <div class="user-opinion-container">
+    <!-- Card 1 -->
+    <div class="user-opinion-card">
+      <div class="stars">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+      </div>
+      <h3 class="user-opinion-subtitle">Loved by Designers</h3>
+      <p class="user-opinion-description">
+        “This template instantly leveled up our presence.” – Studio Vertex
+      </p>
+      <div class="reviewer-info">
+        <img src="B12A01-landing-launchpad/Assets/avatar.png" alt="Reviewer avatar" class="review-avatar">
+        <div>
+          <h4 class="reviewer-name">Reviewer Name</h4>
+          <p class="review-date">August 12, 2025</p>
         </div>
-        <div class="banner-content">
-            <h4><div class="banner-content">
-            <h4>Cool Dark UI Template for<br />Webflow Agencies!</h4>
-            <button class="btn-primary">Stay Focused</button>
-        </div></h4>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="user-opinion-card">
+      <div class="stars">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+      </div>
+      <h3 class="user-opinion-subtitle">Highly Recommended</h3>
+      <p class="user-opinion-description">
+        “Clean design and super easy to customize.” – PixelWorks
+      </p>
+      <div class="reviewer-info">
+        <img src="B12A01-landing-launchpad/Assets/avatar.png" alt="Reviewer avatar" class="review-avatar">
+        <div>
+          <h4 class="reviewer-name">Emma Johnson</h4>
+          <p class="review-date">July 30, 2025</p>
         </div>
-    </header>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="user-opinion-card">
+      <div class="stars">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+        <img src="B12A01-landing-launchpad/Assets/icon-star.png" alt="Star">
+      </div>
+      <h3 class="user-opinion-subtitle">Fantastic Support</h3>
+      <p class="user-opinion-description">
+        “The support team was quick and super helpful!” – CodeCraft
+      </p>
+      <div class="reviewer-info">
+        <img src="B12A01-landing-launchpad/Assets/avatar.png" alt="Reviewer avatar" class="review-avatar">
+        <div>
+          <h4 class="reviewer-name">Liam Brown</h4>
+          <p class="review-date">June 21, 2025</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="focus">
+  <div class="focus-content">
+    <h2 class="focus-title">Ready to Focus Better</h2>
+    <p class="focus-subtitle">
+      “This template instantly leveled up our presence.” – Studio Vertex
+    </p>
+    <button class="btn-primary">Get Started Free</button>
+  </div>
+
+  <div class="focus-image">
+    <img src="B12A01-landing-launchpad/Assets/wc-big.png" alt="Focus preview">
+  </div>
+</section>
+  </main>
+</body>
+</html>
